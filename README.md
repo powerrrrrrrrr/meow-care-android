@@ -2,6 +2,18 @@
 
 Java 原生 Android 应用。记录猫砂盆、饮水盆和饭盆等物品的清洁历史，按实际完成日期计算下次到期。
 
+## 预览
+
+喵洁日历用清爽的奶油白与鼠尾草绿记录猫咪日常清洁，也支持自适应桌面图标和自定义图片图标：
+
+| 月历 | 设置 | 自定义图标 |
+| --- | --- | --- |
+| ![月历页面](docs/screenshots/calendar.png) | ![设置页面](docs/screenshots/settings.png) | ![图标设置](docs/screenshots/icon-customization.png) |
+
+桌面图标会交给系统的圆形、方形或圆角方形遮罩处理，不额外绘制白色边框：
+
+![自适应桌面图标](docs/screenshots/adaptive-icon-desktop.png)
+
 ## 开发
 
 在 Android Studio 中打开本目录。应用源码使用 Java 17，界面使用 XML，最低 Android 8.0（API 26）。构建使用 Android SDK 35、AGP 8.7.3 和 Gradle 8.9。JDK 推荐 Android Studio 随附的 JBR 21。
