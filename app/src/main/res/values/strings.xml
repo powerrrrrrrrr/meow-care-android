@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">喵洁日历</string>
+    <string name="today_title">今天</string>
+    <string name="today">今天</string><string name="calendar">月历</string><string name="settings">设置</string>
+    <string name="backfill">补记</string><string name="complete_now">完成</string>
+    <string name="day_number">%1$d</string><string name="day_number_marked">%1$d •</string>
+    <string name="item_interval">%1$s · 每 %2$d 天</string>
+</resources>

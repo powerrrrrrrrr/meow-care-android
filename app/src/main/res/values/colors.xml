@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary">#426A57</color><color name="on_primary">#FFFFFF</color>
+    <color name="background">#F7F8F3</color><color name="surface">#FFFFFF</color>
+    <color name="ink">#26352D</color><color name="muted">#66726B</color>
+    <color name="soft">#E8F0E9</color><color name="line">#E1E6E1</color>
+    <color name="warning">#A6532B</color><color name="warning_bg">#FCEBDD</color>
+    <color name="danger">#A64444</color><color name="danger_bg">#F9E6E3</color>
+    <color name="neutral">#626A66</color><color name="neutral_bg">#ECEFED</color>
+    <color name="success">#3D6B50</color><color name="success_bg">#E5F1E8</color>
+</resources>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="24dp" android:paddingEnd="24dp" android:paddingTop="18dp" android:paddingBottom="14dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/page_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/today_title" android:textSize="26sp" android:textStyle="bold" android:textColor="@color/ink" />
+            <TextView android:id="@+id/page_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="14sp" android:textColor="@color/muted" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <ImageView android:id="@+id/header_art" android:layout_width="54dp" android:layout_height="54dp" android:src="@drawable/ic_cat_resting" app:tint="@color/primary" android:contentDescription="@null" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/loading" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="3dp" android:indeterminate="true" />
+    <ScrollView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingBottom="24dp" />
+    </ScrollView>
+    <LinearLayout android:id="@+id/nav" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="8dp" android:background="@color/surface">
+        <com.google.android.material.button.MaterialButton android:id="@+id/nav_today" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:minHeight="58dp" android:text="@string/today" app:icon="@drawable/ic_home" app:iconGravity="textTop" app:iconPadding="2dp" app:iconSize="20dp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/nav_calendar" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:minHeight="58dp" android:text="@string/calendar" app:icon="@drawable/ic_calendar" app:iconGravity="textTop" app:iconPadding="2dp" app:iconSize="20dp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/nav_settings" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:minHeight="58dp" android:text="@string/settings" app:icon="@drawable/ic_settings" app:iconGravity="textTop" app:iconPadding="2dp" app:iconSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
